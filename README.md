@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://interior-consultant-silk.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/sramisy/404-not-found/main/.github/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/sramisy/interior-consultant/main/.github/images/screenshot.png)
 
 ### Built With
 
