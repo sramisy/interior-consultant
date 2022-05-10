@@ -1,0 +1,24 @@
+.container {
+  max-inline-size: 1280px;
+  margin-inline: auto;
+}
+
+.l-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .l-hero {
+        flex-direction: row;
+        align-items: center;
+    }
+}

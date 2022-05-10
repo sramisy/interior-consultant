@@ -1,0 +1,46 @@
+.card {
+  position: absolute;
+  right: clamp(0.75rem, 0.2rem + 2.5vw, 2rem);
+  top: 80%;
+  padding-inline: clamp(1.25rem, 0.75rem + 1.5vw, 1.5rem);
+  padding-block-start: 0.875rem;
+  padding-block-end: clamp(1.5rem, 0.75rem + 2vw, 2rem);
+  min-inline-size: clamp(300px, 14rem + 20vw, 410px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+  background-color: var(--clr-black);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card__image {
+  width: clamp(2.25rem, 1.5rem + 2.5vw, 3.125rem);
+  height: clamp(2.25rem, 1.5rem + 2.5vw, 3.125rem);
+  border-radius: 4rem;
+}
+
+.card__title {
+  font-size: clamp(var(--fs-xs), 0.25rem + 1.5vw, var(--fs-sm));
+  font-weight: 500;
+}
+
+.card__subtitle {
+  font-size: clamp(var(--fs-2xs), 0.25rem + 1.5vw, var(--fs-xs));
+  font-weight: 500;
+  color: var(--clr-gray-2);
+  margin-block-start: clamp(0.25rem, 0.125rem + 0.5vw, 0.5rem);
+}
+
+.card__body {
+  margin-block-start: clamp(1.125rem, 0.75rem + 1.5vw, 1.5rem);
+}
+
+.card__body-text {
+  font-family: var(--ff-serif-1);
+  font-size: clamp(var(--fs-lg), 0.75rem + 1.5vw, var(--fs-xl));
+  font-weight: 700;
+  max-inline-size: 16ch;
+}

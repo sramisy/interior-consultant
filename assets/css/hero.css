@@ -1,0 +1,33 @@
+.hero {
+  padding-block-start: clamp(2.5rem, 1rem + 5vw, 5rem);
+  padding-block-end: clamp(8rem, 7.5rem + 2.5vw, 10rem);
+}
+
+.hero__content {
+    flex-shrink: 0;
+}
+
+.hero__title {
+  font-family: var(--ff-serif-1);
+  font-size: clamp(2.25rem, 1.5rem + 2.5vw, var(--fs-2xl));
+  font-weight: 500;
+}
+
+.hero__subtitle {
+  font-size: clamp(var(--fs-sm), 0.5rem + 1.5vw, var(--fs-xl));
+  max-inline-size: 28ch;
+  margin-block-start: clamp(1.5rem, 0.75rem + 3vw, 2.5rem);
+  margin-block-end: clamp(1.5rem, 0.75rem + 3vw, 3rem);
+}
+
+.hero__link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: clamp(var(--fs-sm), 0.5rem + 1.5vw, var(--fs-lg));
+  font-weight: 700;
+}
+
+.hero__illustration {
+  position: relative;
+}
